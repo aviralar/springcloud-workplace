@@ -4,8 +4,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import com.springcloud.baeldung.EmailApplication.util.AppUtil;
+import org.springframework.stereotype.Component;
 
+import com.springcloud.baeldung.EmailApplication.util.AppUtil;
 
 public class Email {
 
