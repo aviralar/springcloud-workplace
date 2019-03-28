@@ -13,6 +13,12 @@ public class TestMail {
 	final String baseUrl = "http://email/sendemail";
 	final String message = "Succesfully sent mail from email microservice";
 
+	@GetMapping("")
+	@ResponseBody
+	public String hello() {
+		return "Hello from client";
+	}
+	
 	@GetMapping("/sendmail")
 	@ResponseBody
 	public ResponseEntity<String> sendmail() {
